@@ -1,10 +1,12 @@
-# 개요
+# MyStreamLiveMedia 대시보드 가이드
+
+## 개요
 
 **MyStreamLiveMedia 대시보드**는 방송 송출 및 시청을 위한 통합 관리 플랫폼입니다. 사용자는 대시보드를 활용해 실시간으로 채널을 생성하고, 설정을 조정하며, 모니터링할 수 있습니다.
 
 <br>
 
-## 주요 기능
+### 주요 기능
 
 - **채널 생성 및 관리**: 사용자는 쉽게 새로운 라이브 채널을 생성하고, 기존 채널의 정보를 수정할 수 있습니다.
 - **Configuration 설정**: 대시보드의 설정 옵션을 통해 채널 수, 암호화, VOD 및 트랜스코딩 프로필을 세부적으로 조정할 수 있습니다.
@@ -14,7 +16,7 @@
 
 <br>
 
-## 역할별 이용 권한
+### 역할별 이용 권한
 
 MyStreamLiveMedia 대시보드 이용 권한 및 권한별 수행할 수 있는 작업은 다음과 같습니다.
 
@@ -27,13 +29,13 @@ MyStreamLiveMedia 대시보드 이용 권한 및 권한별 수행할 수 있는 
 
 <br>
 
-# MyStreamLiveMedia 채널
+## MyStreamLiveMedia 채널
 
 방송 송출 및 시청을 위한 채널 정보를 입력하고 생성합니다.
 
 <br>
 
-## MyStreamLiveMedia 채널 생성하기
+### MyStreamLiveMedia 채널 생성하기
 
 MyStreamLiveMedia 채널 생성하는 방법은 다음과 같습니다.
 
@@ -58,7 +60,7 @@ MyStreamLiveMedia 채널 생성하는 방법은 다음과 같습니다.
 
 <br>
 
-## MyStreamLiveMedia 채널 정보 수정하기
+### MyStreamLiveMedia 채널 정보 수정하기
 
 저장된 채널의 정보는 언제든지 수정할 수 있습니다. 기본 정보는 히스토리에 기록되지 않지만, Configuration 정보는 진행 상황이 히스토리에 기록됩니다.
 
@@ -73,9 +75,9 @@ MyStreamLiveMedia 채널 생성하는 방법은 다음과 같습니다.
 
 <br>
 
-## Channel and input details 설정하기
+### Channel and input details 설정하기
 
-### Volume
+#### Volume
 
 동시 방송 횟수에 따라 필요한 채널 수가 확정되었다면 **Channels** 메뉴를 선택하고 채널 규모를 입력합니다.
 - 채널은 최대 50개까지 입력할 수 있습니다.
@@ -84,20 +86,20 @@ MyStreamLiveMedia 채널 생성하는 방법은 다음과 같습니다.
 
 <br>
 
-### Encrypt HLS content
+#### Encrypt HLS content
 
  Encrypt HLS를 활성화하면, HLS 사양에 따라 콘텐츠가 암호화되어 시청자에게 전달됩니다. 이 기능을 설정하면 암호화 정보를 제공해야 합니다.
 
 <br>
 
-### VOD
+#### VOD
 
 방송 후 방송을 저장해서 VOD로 제공할 수 있습니다. VOD 사용 여부와 VOD 저장 기간을 설정합니다. 
 - 최대 10일까지 설정 가능합니다.
 
 <br>
 
-### 트랜스코딩 프로필
+#### 트랜스코딩 프로필
 
 영상을 트랜스코딩할 프로필을 설정합니다.
 
@@ -111,7 +113,7 @@ MyStreamLiveMedia 채널 생성하는 방법은 다음과 같습니다.
 
 <br>
 
-# Viewers 설정
+## Viewers 설정
 
 Viewers는 방송의 스트리밍 시청 인원 수를 설정합니다.
 
@@ -151,13 +153,13 @@ Viewers는 방송의 스트리밍 시청 인원 수를 설정합니다.
 
 <br>
 
-# S3 설정
+## S3 설정
 
 S3에 저장된 파일을 MediaLive 서비스는 유튜브로 송출할 수 있습니다.
 
 <br>
 
-## S3와 연계하기
+### S3와 연계하기
 
 MediaLive 서비스 S3와 연계하려면 이 옵션을 활성화합니다. 활성화하면 아래의 추가 옵션들을 설정할 수 있습니다.
 
@@ -175,19 +177,17 @@ MediaLive 서비스 S3와 연계하려면 이 옵션을 활성화합니다. 활�
 
 <br>
 
-# Authentication
+## Authentication
 
 **Authentication** 메뉴에서는 보안을 위해 접근에 필요한 인증 정보를 관리하고 설정할 수 있습니다.
 
-## 인증 설정
-
-**Use authentication 설정**
+### Use authentication 설정
 
 API 접근에 필요한 인증 설정할 수 있습니다.
 
 <br>
 
-**API URL**
+### API URL
 
 API URL을 입력합니다. 
 
@@ -202,14 +202,14 @@ MyStreamLiveMedia 서비스 설정을 API를 통해 확인하고 가져올 수 �
 
 <br>
 
-**Headers**
+### Headers
 
 - Header를 추가하려면 **[Add]** 버튼을 클릭하여 입력합니다.
 - Header 입력 시 대소문자를 구분해서 입력해야 합니다.
 
 <br>
 
-> API 설정 예시
+#### API 설정 예시
 
 인증 및 설정 정보를 포함한 API 요청 예시입니다.
 

@@ -166,8 +166,8 @@ MediaLive 서비스 S3와 연계하려면 이 옵션을 활성화합니다. 활�
 
  - **파일의 종류 설정**: 송출 허용할 파일은 종류를 설정합니다.
 
- - **Player mode 설정**
-     | Player mode 설정 항목 | 설명 |
+ - **Player mode 설정**: Landscape mode와 Viewer count shown를 설정합니다.
+     | 설정 항목 | 설명 |
      | --- | --- |
      | Landscape mode 설정 | - 활성화: 플레이어에서 시청자가 Landscape mode와 Portrait mode를 선택할 수 있음 <br> - 비활성화: 세로 이미지는 세로 모드에서만 시청할 수 있음 |
      | Viewer count shown 설정 | 실시간 시청자 수와 총 시청자 수 중 어떤 정보를 플레이어에 표시할지 설정 가능 |

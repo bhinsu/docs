@@ -103,8 +103,8 @@ MyStreamLiveMedia 채널 생성하는 방법은 다음과 같습니다.
 
 | 설정 항목 | 설명 | 기본값 |
 | ---- | --- | --- |
-| Input stream 설정 | 입력 영상에 적용할 프로필을 설정합니다. | 1080p HD / HEVC / 20Mbps |
-| Output stream 설정 | 출력 영상에 적용할 프로필을 설정합니다. | 1080p HD / 720p HD / 480 SD |
+| Input stream 설정 | 입력 영상에 적용할 프로필 설정 | 1080p HD / HEVC / 20Mbps |
+| Output stream 설정 | 출력 영상에 적용할 프로필 설정 | 1080p HD / 720p HD / 480 SD |
 
 
 ![트랜스코딩 프로필 설정](https://drive.google.com/uc?id=1aI-N4P18LxMALL32w_oyyvgo2vVvFr5C)
@@ -197,8 +197,8 @@ https://console.mystreamlivemedia.com/api/v1/configuration/{projectId}/{channelI
 
 MyStreamLiveMedia 서비스 설정은 API를 통해 확인하고 가져올 수 있습니다. 설정 이름은 대시보드 이름과 동일합니다.
 
-    - `{projectId}`: 특정 프로젝트의 고유 ID
-    - `{channelId}`: 특정 채널의 고유 ID
+ - `{projectId}`: 특정 프로젝트의 고유 ID
+ - `{channelId}`: 특정 채널의 고유 ID
 
 <br>
 
@@ -215,39 +215,36 @@ Header를 추가하려면 **[Add]** 버튼을 클릭하여 입력합니다.
 
 ```json
 {
-  "authentication": {
-    "use": true,
-    "apiurl": "https://api.example.com/v1/auth/login",
-    "headers": [
-      "Authorization",
-      "Content-Type",
-      "x-security-token"
-    ]
-  },
-  "viewer": {
-    "max": 3,000,
+    "authentication": {
+        "use": true,
+        "apiurl": "https://api.example.com/v1/auth/login"
+        "headers": ,
+        [
+            "Authorization",
+            "Content-Type",
+            "x-security-token"
+        ]
+    }
+}
+"viewer": {
+    "max": 3000,
     "count": "private",
-    "viewercounttype": "SHARED",
+    "viewercounttype": "SHARED"
     "report": {
-      "mmsProjectId": "A1B2C3",
-      "country": "ko"
+        "mmsProjectId": "A1B2C3",
+        "country": "ko"
     }
-  },
-  "s3": {
+},
+"s3": {
     "use": "true",
-    "type": [
-      "MP4",
-      "AVI",
-      "M4V"
-    ],
-    "lanscape": true
-  },
-  "info: {
-    "projectId": "sample123",
-    "volume": 10,
-    "vod": {
-      "use": false
-    }
-  }
+    "type": ["MP4", "AVI", "M4V"],
+    "lanscape": true,
+},
+"info: {
+"projectId": "sample123",
+"volume": 10,
+"vod": {
+    "use": false
+}
 }
 ```

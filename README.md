@@ -212,40 +212,39 @@ Header를 추가하려면 **[Add]** 버튼을 클릭하여 입력합니다.
 
 #### API 예시
 
-인증 및 설정 정보를 포함한 API 요청 예시입니다.
+인증 및 설정 정보를 포함한 API 예시입니다.
 
 ```json
 {
     "authentication": {
         "use": true,
-        "apiurl": "https://api.example.com/v1/auth/login"
-        "headers": ,
-        [
+        "apiurl": "https://api.example.com/v1/auth/login",
+        "headers": [
             "Authorization",
             "Content-Type",
             "x-security-token"
         ]
+    },
+    "viewer": {
+        "max": 3000,
+        "count": "private",
+        "viewercounttype": "SHARED",
+        "report": {
+            "mmsProjectId": "A1B2C3",
+            "country": "ko"
+        }
+    },
+    "s3": {
+        "use": "true",
+        "type": ["MP4", "AVI", "M4V"],
+        "landscape": true
+    },
+    "info": {
+        "projectId": "sample123",
+        "volume": 10,
+        "vod": {
+            "use": false
+        }
     }
-}
-"viewer": {
-    "max": 3000,
-    "count": "private",
-    "viewercounttype": "SHARED"
-    "report": {
-        "mmsProjectId": "A1B2C3",
-        "country": "ko"
-    }
-},
-"s3": {
-    "use": "true",
-    "type": ["MP4", "AVI", "M4V"],
-    "lanscape": true,
-},
-"info": {
-"projectId": "sample123",
-"volume": 10,
-"vod": {
-    "use": false
-}
 }
 ```

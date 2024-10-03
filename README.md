@@ -179,6 +179,8 @@ MediaLive 서비스 S3와 연계하려면 이 옵션을 활성화합니다. 활�
 
 **Authentication** 메뉴에서는 보안을 위해 접근에 필요한 인증 정보를 관리하고 설정할 수 있습니다.
 
+<br>
+
 ### Use authentication 설정
 
 API 접근에 필요한 인증 설정할 수 있습니다.
@@ -202,7 +204,7 @@ MyStreamLiveMedia 서비스 설정을 API를 통해 확인하고 가져올 수 �
 
 ### Headers
 
-- Header를 추가하려면 **[Add]** 버튼을 클릭하여 입력합니다.
+Header를 추가하려면 **[Add]** 버튼을 클릭하여 입력합니다.
 - Header 입력 시 대소문자를 구분해서 입력해야 합니다.
 
 <br>

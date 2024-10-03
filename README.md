@@ -56,10 +56,6 @@ MyStreamLiveMedia 채널 생성하는 방법은 다음과 같습니다.
 
     확인한 정보를 최종적으로 저장하면 MyStreamLiveMedia 설정이 완료됩니다. 저장된 내역은 히스토리에 기록되며, **채널 상세 정보** 페이지 하단에서 변경 정보의 버전을 비교하여 확인할 수 있습니다.
 
-5. **정보 저장하기**
-
-    확인한 정보를 최종적으로 저장하면 MyStreamLiveMedia 설정이 완료됩니다. 저장된 내역은 히스토리에 기록되며, **채널 상세 정보** 페이지 하단에서 변경 정보의 버전을 비교하여 확인할 수 있습니다.
-
 <br>
 
 ## MyStreamLiveMedia 채널 정보 수정하기
@@ -73,6 +69,8 @@ MyStreamLiveMedia 채널 생성하는 방법은 다음과 같습니다.
 1. 상세 정보 화면에서 각 섹션 우측 상단의 **[Edit]** 버튼을 클릭해 변경할 내용을 입력합니다.
 2. **[Save]** 버튼을 누르면 바로 배포됩니다. 
 
+<br>
+
 ## Channel and input details 설정하기
 
 **Volume**
@@ -82,21 +80,27 @@ MyStreamLiveMedia 채널 생성하는 방법은 다음과 같습니다.
 
 > **안내**. 30개 이상의 채널이 필요하다면, 운영 3개월 전 medialive_help@media.com을 통해 먼저 상담 후 입력하시기 바랍니다. 상담하지 않은 경우, 생성 요청이 실패할 수 있습니다.
 
-### Encrypt HLS content
+<br>
+
+**Encrypt HLS content**
 
  Encrypt HLS를 활성화하면, HLS 사양에 따라 콘텐츠가 암호화되어 시청자에게 전달됩니다. 이 기능을 설정하면 암호화 정보를 제공해야 합니다.
 
-### VOD
+<br>
+
+**VOD**
 
 방송 후 방송을 저장해서 VOD로 제공할 수 있습니다. VOD 사용 여부와 VOD 저장 기간을 설정합니다. 
 - 최대 10일까지 설정 가능합니다.
 
-### 트랜스코딩 프로필
+<br>
+
+**트랜스코딩 프로필**
 
 영상을 트랜스코딩할 프로필을 설정합니다.
 
 | 설정 항목 | 설명 | 기본값 |
-| :--: | :--: | :--: |
+| ---- | --- | --- |
 | Input stream 설정 | 입력 영상에 적용할 프로필을 설정합니다. | 1080p HD / HEVC / 20Mbps |
 | Output stream 설정 | 출력 영상에 적용할 프로필을 설정합니다. | 1080p HD / 720p HD / 480 SD |
 
@@ -111,24 +115,29 @@ Viewers는 방송의 스트리밍 시청 인원 수를 설정합니다.
 
 <br>
 
-### Max viewers
+**Max viewers**
 
 라이브 스트리밍을 볼 수 있는 최대 인원을 설정합니다. 
 
 > **참고**. 3000명이 넘는 인원을 설정하고 싶다면, 상담을 요청하시기 바랍니다.
 
+<br>
 
-### Viewer count
+**Viewer count**
 
 **Private mode**와 **Public mode** 중에서 선택하여 시청자 수가 보이게 하거나 안 보이게 할 수 있습니다. 
 
 - Private mode인 경우 스트리머만 숫자를 볼 수 있습니다.
 
-### Viewer count type
+<br>
+
+**Viewer count type**
 
 실시간 시청자 수 또는 총 시청자 수 중 어떤 정보를 플레이어에 표시할 지 설정할 수 있습니다.
 
-### Report
+<br>
+
+**Report**
 
 방송을 신고할 수 있는 기능 사용 여부를 결정할 수 있습니다. MyMonitoringSystem과 연계해 신고된 방송 정보를 확인할 수 있습니다. 
 
@@ -156,7 +165,7 @@ MediaLive 서비스 S3와 연계하려면 이 옵션을 활성화합니다. 활�
 - Player mode 설정
 
 | 설정 항목 | 설명 |
-| :--: | :--: |
+| :--: | --- |
 | Landscape mode 설정 | - 활성화: 플레이어에서 시청자가 Landscape mode와 Portrait mode를 선택하여 시청할 수 있습니다. <br> - 비활성화: 세로 이미지는 세로 모드에서만 시청할 수 있습니다. |
 | Viewer count shown 설정 | 실시간 시청자 수 또는 총 시청자 수 중 어떤 정보를 플레이어에 표시할 지 설정할 수 있습니다. |
 
@@ -166,15 +175,15 @@ MediaLive 서비스 S3와 연계하려면 이 옵션을 활성화합니다. 활�
 
 **Authentication** 메뉴에서는 보안을 위해 접근에 필요한 인증 정보를 관리하고 설정할 수 있습니다.
 
-<br>
+## 인증 설정
 
-## 인증 사용 설정
+**Use authentication 설정**
 
 API 접근에 필요한 인증 설정할 수 있습니다.
 
 <br>
 
-> API URL
+**API URL**
 
 API URL을 입력합니다. 
 
@@ -189,7 +198,7 @@ MyStreamLiveMedia 서비스 설정을 API를 통해 확인하고 가져올 수 �
 
 <br>
 
-> Headers
+**Headers**
 
 - Header를 추가하려면 **[Add]** 버튼을 클릭하여 입력합니다.
 - Header 입력 시 대소문자를 구분해서 입력해야 합니다.
@@ -238,5 +247,3 @@ MyStreamLiveMedia 서비스 설정을 API를 통해 확인하고 가져올 수 �
   }
 }
 ```
-
-{% hint style="warning" %} 힌트입니다. {% endhint %}

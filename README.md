@@ -92,7 +92,7 @@ MyStreamLiveMedia 채널 생성하는 방법은 다음과 같습니다.
 
 #### Encrypt HLS content
 
- Encrypt HLS를 활성화하면, HLS 사양에 따라 콘텐츠가 암호화되어 시청자에게 전달됩니다. 이 기능을 설정하면 암호화 정보를 제공해야 합니다.
+ Encrypt HLS(HTTP Live Streaming)를 활성화하면, HLS 사양에 따라 콘텐츠가 암호화되어 시청자에게 전달됩니다. 이 기능을 설정하면 암호화 정보를 제공해야 합니다.
 
 <br>
 
@@ -158,7 +158,7 @@ Viewers는 방송의 스트리밍 시청 인원수를 설정합니다.
 
 ## S3 설정
 
-S3에 저장된 파일을 MediaLive 서비스는 유튜브로 송출할 수 있습니다.
+S3(Simple Storage Service)에 저장된 파일을 MediaLive 서비스는 유튜브로 송출할 수 있습니다.
 
 <br>
 

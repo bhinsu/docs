@@ -110,7 +110,7 @@ MyStreamLiveMedia 채널 생성하는 방법은 다음과 같습니다.
 | Input stream 설정 | 입력 영상에 적용할 프로필 설정 | 1080p HD / HEVC / 20Mbps |
 | Output stream 설정 | 출력 영상에 적용할 프로필 설정 | 1080p HD / 720p HD / 480 SD |
 
-![트랜스코딩 프로필 설정](https://drive.google.com/uc?id=1aI-N4P18LxMALL32w_oyyvgo2vVvFr5C)
+![트랜스코딩 프로필 설정](./img/Transcoding%20Engine.png)
 
 <br>
 

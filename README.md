@@ -33,7 +33,7 @@ MyStreamLiveMedia 대시보드 이용 권한 및 권한별 수행할 수 있는 
 
 <br>
 
-## MyStreamLiveMedia 채널 생성
+## MyStreamLiveMedia 채널 생성하기
 
 MyStreamLiveMedia 채널 생성하는 방법은 다음과 같습니다.
 
@@ -62,20 +62,20 @@ MyStreamLiveMedia 채널 생성하는 방법은 다음과 같습니다.
 
 <br>
 
-## MyStreamLiveMedia 채널 정보 수정
+## MyStreamLiveMedia 채널 정보 수정하기
 
 저장된 채널의 정보는 언제든지 수정할 수 있습니다. 기본 정보는 히스토리에 기록되지 않지만, Configuration 정보는 진행 상황이 히스토리에 기록됩니다.
 
 > **참고**. 채널의 정보 중 몇몇 값은 환경 설정상 수정할 수 없습니다.
 
-### 기본 정보 및 Configuration 수정하기
+**기본 정보 및 Configuration 수정하기**
 
 1. 상세 정보 화면에서 각 섹션 우측 상단의 **[Edit]** 버튼을 클릭해 변경할 내용을 입력합니다.
 2. **[Save]** 버튼을 누르면 바로 배포됩니다. 
 
 ## Channel and input details 설정하기
 
-### Volume
+**Volume**
 
 동시 방송 횟수에 따라 필요한 채널 수가 확정되었다면 **Channels** 메뉴를 선택하고 채널 규모를 입력합니다.
 - 채널은 최대 50개까지 입력할 수 있습니다.

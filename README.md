@@ -164,11 +164,14 @@ S3에 저장된 파일을 MediaLive 서비스는 유튜브로 송출할 수 있�
 
 MediaLive 서비스 S3와 연계하려면 이 옵션을 활성화합니다. 활성화하면 아래의 추가 옵션들을 설정할 수 있습니다.
 
-| 설정 항목 | 상세 항목 | 설명 |
-| :--: | :--: | --- |
-| 송출 허용 파일의 종류 설정 |  |  |
-| Player mode 설정 | Landscape mode 설정 | - 활성화: 플레이어에서 시청자가 Landscape mode와 Portrait mode를 선택하여 시청할 수 있음 <br> - 비활성화: 세로 이미지는 세로 모드에서만 시청할 수 있음 |
-| | Viewer count shown 설정 | 실시간 시청자 수 와 총 시청자 수 중 어떤 정보를 플레이어에 표시할지 설정 가능 |
+**송출 허용 파일의 종류 설정**
+**Player mode 설정**
+  - Landscape mode 설정 
+     - 활성화: 플레이어에서 시청자가 Landscape mode와 Portrait mode를 선택하여 시청할 수 있음 <br> 
+     - 비활성화: 세로 이미지는 세로 모드에서만 시청할 수 있음
+  - Viewer count shown 설정
+     - 실시간 시청자 수 와 총 시청자 수 중 어떤 정보를 플레이어에 표시할지 설정 가능
+
 
 <br>
 

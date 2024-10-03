@@ -238,3 +238,5 @@ MyStreamLiveMedia 서비스 설정을 API를 통해 확인하고 가져올 수 �
   }
 }
 ```
+
+{% hint style="warning" %} 힌트입니다. {% endhint %}

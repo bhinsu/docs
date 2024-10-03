@@ -33,7 +33,7 @@ MyStreamLiveMedia 대시보드 이용 권한 및 권한별 수행할 수 있는 
 
 <br>
 
-### MyStreamLiveMedia 채널 생성하기
+### 채널 생성하기
 
 MyStreamLiveMedia 채널 생성하는 방법은 다음과 같습니다.
 
@@ -58,7 +58,7 @@ MyStreamLiveMedia 채널 생성하는 방법은 다음과 같습니다.
 
 <br>
 
-### MyStreamLiveMedia 채널 정보 수정하기
+### 채널 정보 수정하기
 
 저장된 채널의 정보는 언제든지 수정할 수 있습니다. 기본 정보는 히스토리에 기록되지 않지만, Configuration 정보는 진행 상황이 히스토리에 기록됩니다.
 
